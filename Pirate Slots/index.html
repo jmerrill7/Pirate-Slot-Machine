@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en>
+<!--
+Game: A simple pirate themed slot machine that takes the user's bet and returns winnings dependent on the reels.
+Author: James Merrill
+Date: 6/16/2017
+-->
+	<head>
+		<title>Pirate Slots</title>
+		<meta charset=utf-8">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+	
+	<body id="body">
+		<h1>Welcome to Pirate Slots!</h1>
+			<table>
+				<tr>
+					<td>
+						<img src="images/blank.png" width="150" height="150" id="reel1" alt="some image">
+					</td>
+					<td>
+						<img src="images/blank.png" width="150" height="150" id="reel2" alt="some image">
+					</td>
+					<td>
+						<img src="images/blank.png" width="150" height="150" id="reel3" alt="some image">
+					</td>
+				</tr>
+			</table>		
+				<div>
+					<div>			
+						<h2> Three Treasure chests is the Jackpot! - x100 Your Bet<br />
+							One Map - x2 Your Bet<br />
+							Two Map - x3 Your Bet<br />
+							Three Maps - x4 Your Bet</br>
+							One Skull - You Lose!
+						</h2>
+					</div>					
+					<div>
+						<h2>Bet:&nbsp&nbsp&nbsp
+							<select id="bet">
+								<option value="1">$1.00</option>
+								<option value="5">$5.00</option>
+								<option value="10">$10.00</option>
+							</select>
+						</h2>					
+						<h2>
+							Winnings: $<span id="winnings">0.00</span>
+						</h2>
+					</div>
+				</div>		
+			<div class=""><button id="btnStart" onclick="determineWinnings()">Pull Lever!</button></div>
+		<script src="./js/action.js" type="text/javascript"></script>
+	</body>
+</html>

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Aguafina Script');
+
+*{
+	margin: 10;
+	padding: 10;
+}
+
+body{
+	background-image: url(../images/background.jpg);
+	font-family: 'Aguafina Script', 'Avant Garde', 'sans-serif';
+	font-size: 14px;
+	line-height: 200%;
+}
+
+h1{
+	font-size: 48px;
+	text-align: center;
+	margin: 1em;
+}
+
+h2{
+	text-align: center;
+	margin: 1em;
+}
+
+table{
+	margin: 1em auto;
+	line-height: 150%;
+}
+
+#bet{
+	cursor: pointer;
+	padding: 5px;
+	font-size: 20px;
+    font-family: 'Aguafina Script', 'Avant Garde', 'sans-serif';
+	transition-property: transform background, box-shadow, color;
+	transition-duration: .3s, .5s, .2s;
+}
+
+#btnStart{
+	cursor: pointer;
+	padding: 5px;
+    font-family: 'Aguafina Script', 'Avant Garde', 'sans-serif';
+	font-size: 30px;
+	transition-property: transform background, box-shadow, color;
+	transition-duration: .3s, .5s, .2s;
+	width: 10%;
+	margin-left: 45%;
+	margin-right: 45%
+}
